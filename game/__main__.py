@@ -79,7 +79,7 @@ char_to_tile_index_map = defaultdict(
 
 if __name__ == "__main__":
     argc = len(sys.argv)
-    filename = sys.argv[1] if argc > 1 else "demo_lvl.txt"
+    filename = sys.argv[1] if argc > 1 else "./resources/demo_lvl.txt"
 
     path = Path(filename)
     if not path.is_file():
@@ -97,7 +97,7 @@ if __name__ == "__main__":
     screen = pygame.display.set_mode([500, 500])
     screen.convert()
 
-    tile_set = pygame.image.load("map_tileset.png").convert()
+    tile_set = pygame.image.load("./resources/map_tileset.png").convert()
     tile_count_width = 10
     tile_count_height = 5
     tile_width = math.ceil(tile_set.get_width() / tile_count_width)
