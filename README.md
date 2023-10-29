@@ -10,15 +10,22 @@ Python 3.9
 
 ## Quick Start
 
+To install dependencies (In Linux or mac)
+```bash
+python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+```
+
+To run the drawing CLI
 ```bash
 python3 cli
 ```
 
-Make a drawing and save it.
-
+To run a game with a saved drawing.
 ```bash
 python3 game $PATH_TO_SAVED_DRAWING
 ```
+
+The "game" is just a rendering of the map, there are no other game mechanics.
 
 ## Origonal prompt
 
