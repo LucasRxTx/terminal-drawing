@@ -1,0 +1,1 @@
+CLEAR_SCREEN = "\033[2J"
