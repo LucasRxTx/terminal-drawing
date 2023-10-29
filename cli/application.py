@@ -1,23 +1,24 @@
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Callable
+
+import constants
 from command import (
-    NewCommand,
-    LineCommand,
     ChangeCharCommand,
-    RawCommand,
-    RectangleCommand,
+    ExitCommand,
     FillCommand,
     HelpCommand,
-    SaveCommand,
+    LineCommand,
     LoadCommand,
-    ExitCommand,
+    NewCommand,
+    RawCommand,
+    RectangleCommand,
+    SaveCommand,
     command_registry,
 )
-from screen import Screen
-from pathlib import Path
-from shapes import Line, Point, Rectangle, ShapeProtocol
 from exceptions import InvalidCommandException
-import constants
+from screen import Screen
+from shapes import Line, Point, Rectangle, ShapeProtocol
 
 
 @dataclass

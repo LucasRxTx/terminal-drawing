@@ -1,9 +1,11 @@
 from __future__ import annotations
+
+from collections import defaultdict
 from dataclasses import dataclass
-from exceptions import InvalidCommandException
 from enum import StrEnum
 from typing import Protocol
-from collections import defaultdict
+
+from exceptions import InvalidCommandException
 
 
 class CommandOptions(StrEnum):

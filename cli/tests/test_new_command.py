@@ -1,5 +1,6 @@
 import unittest
-from command import RawCommand, NewCommand
+
+from command import NewCommand, RawCommand
 from exceptions import InvalidCommandException
 
 

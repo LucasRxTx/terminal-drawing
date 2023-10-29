@@ -1,7 +1,8 @@
 from __future__ import annotations
-from dataclasses import dataclass, field
+
 import math
-from typing import Protocol, Generator, Any
+from dataclasses import dataclass, field
+from typing import Any, Generator, Protocol
 
 
 class ShapeProtocol(Protocol):
