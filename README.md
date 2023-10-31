@@ -5,7 +5,7 @@ The work here represents two evenings of work.  I have expanded on the origonal 
 
 ## Requirements
 
-Python 3.9
+Python 3.11
 
 
 ## Quick Start
